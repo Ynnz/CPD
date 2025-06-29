@@ -51,5 +51,5 @@ static inline int16_t sigmoid_lookup_q7_8(int16_t x_fp) {
 lines.append("#endif // SIGMOID_TABLE_FIXED_H")
 
 # Write to file
-with open("sigmoid_table_generator.py", "w") as f:
+with open("sigmoid_table_fixed.h", "w") as f:
     f.write("\n".join(lines))
